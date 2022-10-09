@@ -18,7 +18,7 @@ body {
 header.primary {
     background-color:#73168C;
     text-align:center;
-    text-shadow:1px 1px 10px #000000; /* ---------------the first two values for text-shadow are height and width, the third is the blur, and the last is the color----------------- */
+    text-shadow:1px 1px #000000; /* ---------------the first two values for text-shadow are height and width, the third is the blur (not used here), and the last is the color----------------- */
     color:#ffffff;
     
     /* Below are methods for adding padding. Replace padding with margin, etc. */
@@ -29,7 +29,8 @@ header.primary {
     padding-left:40px;
 
     /* T,R,B,L */
-    padding: 40px 40px 40px 40px;
+    padding: 40px 10px 30px 20px;
+    /* Single Value Applies to all sides */
     padding: 40px;
 
     /* top/bottom | left/right */
@@ -55,7 +56,7 @@ header.primary h2 {
 header.primary nav {
   width:80vw;
   max-width:900px;
-  margin-left:20px auto; 
+  margin:20px auto; 
 }
 
 header.primary nav ul {
