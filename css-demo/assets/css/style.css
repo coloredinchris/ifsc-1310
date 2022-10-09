@@ -1,68 +1,115 @@
 /* ---------------Box Sizing----------------- */
 
 html {
-    box-sizing: border-box; /* ---------------causes content to use border-box method for margin, padding, border, etc. which ensures it never exceeds the amount of pixels set----------------- */
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box; /* ---------------causes content to use border-box method for margin, padding, border, etc. which ensures it never exceeds the amount of pixels set----------------- */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 /* ---------------Global Styles----------------- */
 
 body {
-    font-family: 'Dancing Script', cursive, sans-serif;
-    margin:0;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  margin:0;
 } /* ---------------this changes the fonts available to the webpage----------------- */
 
 header.primary {
-    background-color:#73168C;
-    text-align:center;
-    text-shadow:1px 1px #000000; /* ---------------the first two values for text-shadow are height and width, the third is the blur (not used here), and the last is the color----------------- */
-    color:#ffffff;
-    
-    /* Below are methods for adding padding. Replace padding with margin, etc. */
-    /* Long Form */
-    padding-top:40px;
-    padding-right:40px;
-    padding-bottom:40px;
-    padding-left:40px;
+  background-color:#73168C;
+  text-align:center;
+  text-shadow:1px 1px #000000; /* ---------------the first two values for text-shadow are height and width, the third is the blur (not used here), and the last is the color----------------- */
+  color:#1A1440;
+  
+  /* Below are methods for adding padding. Replace padding with margin, etc. */
+  /* Long Form */
+  padding-top:40px;
+  padding-right:40px;
+  padding-bottom:40px;
+  padding-left:40px;
 
-    /* T,R,B,L */
-    padding: 40px 10px 30px 20px;
-    /* Single Value Applies to all sides */
-    padding: 40px;
+  /* T,R,B,L */
+  padding: 40px 10px 30px 20px;
+  /* Single Value Applies to all sides */
+  padding: 40px;
 
-    /* top/bottom | left/right */
-    padding: 20px 40px;
+  /* top/bottom | left/right */
+  padding: 20px 40px;
 }/* ---------------targets the header labeled with the class "primary" then changes its background color----------------- */
 
 header.primary h1 {
-  font-size:2.6rem;
-  margin:10px 0 20px;
+font-size:2.6rem;
+margin:10px 0 20px;
 }
 
 header.primary h1 a {
-  color:#ffffff;
-  text-decoration:none; /* removes the underline or other decoration */
+color:#1A1440;
+text-decoration:none; /* removes the underline or other decoration */
 }
 
 header.primary h2 {
-  font-size:1.6rem;
-  /* Top | Left/Right | Bottom */
-  margin: 0 auto 40px; /* auto tells it to automatically size it */
+font-size:1.6rem;
+/* Top | Left/Right | Bottom */
+margin: 0 auto 40px; /* auto tells it to automatically size it */
 }
 
 header.primary nav {
-  width:80vw;
-  max-width:900px;
-  margin:20px auto; 
+width:80vw;
+max-width:900px;
+margin:20px auto; 
 }
 
 header.primary nav ul {
-  padding:0;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
+padding:0;
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
 }
 
+
+header.primary nav ul li {
+list-style-type:none; /* removes the bullets, numbers, etc. from a list. if set to something other than none you can change the type of list decoration */
+}
+
+header.primary ul li a {
+color:#281259;
+text-decoration:none;
+background-color:#C04BF2;
+background-color:rgba(192, 75, 242,.8); /* to add tranlucency. */
+padding:8px 16px;
+border-radius:20px; /* this plays with the roundness of the border. can take multiple values to make different shapes for each corner */
+transition:0.5s; /* controls how quickly the transition from hover to active is */ 
+border:1px solid #C04BF2; /* sets a border around the links */
+}
+
+header.primary ul li a:hover, header.primary ul li a:active {
+background-color:rgba(192, 75, 242,.4);
+}
+
+/*header .primary {
+  background-color:red;
+}*/
+/* ---------------the above targets the class labeled "primary" that is INSIDE of a header then changes its background color. Note the space between "header" and ".primary" Just remove the comment elements to enable.----------------- */
+
+/* Color Theme Swatches in Hex */
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-1-hex { color: #73168C; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-2-hex { color: #9F2CBF; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-3-hex { color: #C04BF2; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-hex { color: #281259; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-hex { color: #1A1440; }
+
+/* Color Theme Swatches in RGBA */
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-1-rgba { color: rgba(114, 22, 140, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-2-rgba { color: rgba(159, 43, 191, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-3-rgba { color: rgba(192, 75, 242, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-rgba { color: rgba(40, 17, 89, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-rgba { color: rgba(25, 19, 63, 1); }
+
+/* Color Theme Swatches in HSLA */
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-1-hsla { color: hsla(286, 72, 31, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-2-hsla { color: hsla(286, 62, 46, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-3-hsla { color: hsla(281, 86, 62, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-hsla { color: hsla(258, 66, 20, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-hsla { color: hsla(247, 52, 16, 1); }
+
+/* this is how you make a comment in CSS */
