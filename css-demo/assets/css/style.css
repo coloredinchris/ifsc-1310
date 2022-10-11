@@ -8,12 +8,34 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+/* ---------------Utility Classes----------------- */
+
+.container {
+  max-width:960px; /* content will not exceed 960 pixels */
+  width:80vw; /* content will expand to fill 80% of the available screen */
+  margin:40px auto;
+  text-align:center;
+}
+
+/* ---------------Responsive Images----------------- */
+
+img {
+  max-width:100%;
+}
+
 /* ---------------Global Styles----------------- */
 
 body {
   font-family: 'Dancing Script', cursive, sans-serif;
   margin:0;
 } /* ---------------this changes the fonts available to the webpage----------------- */
+
+header {
+  font-family: 'Monoton', cursive;
+  font-family: 'Silkscreen', cursive, sans-serif;
+  margin:0;
+}
 
 header.primary {
   background-color:#73168C;
@@ -38,8 +60,8 @@ header.primary {
 }/* ---------------targets the header labeled with the class "primary" then changes its background color----------------- */
 
 header.primary h1 {
-font-size:2.6rem;
-margin:10px 0 20px;
+  font-size:2.6rem;
+  margin:10px 0 20px;
 }
 
 header.primary h1 a {
@@ -48,9 +70,9 @@ text-decoration:none; /* removes the underline or other decoration */
 }
 
 header.primary h2 {
-font-size:1.6rem;
+  font-size:1.6rem;
 /* Top | Left/Right | Bottom */
-margin: 0 auto 40px; /* auto tells it to automatically size it */
+  margin: 0 auto 40px; /* auto tells it to automatically size it */
 }
 
 header.primary nav {
@@ -75,7 +97,7 @@ header.primary ul li a {
 color:#281259;
 text-decoration:none;
 background-color:#C04BF2;
-background-color:rgba(192, 75, 242,.8); /* to add tranlucency. */
+background-color:rgba(192, 75, 242,0.8); /* to add tranlucency. */
 padding:8px 16px;
 border-radius:20px; /* this plays with the roundness of the border. can take multiple values to make different shapes for each corner */
 transition:0.5s; /* controls how quickly the transition from hover to active is */ 
@@ -84,6 +106,36 @@ border:1px solid #C04BF2; /* sets a border around the links */
 
 header.primary ul li a:hover, header.primary ul li a:active {
 background-color:rgba(28, 2, 39, 0.4);
+} /* this targets the buttons in the header and makes them a different color when hovered over. */ 
+
+#intro h2 {
+  color:rgba(40, 17, 89, .8);
+  border-bottom:1px solid #C04BF2;
+} /* targets the h2 with the id "intro" and sets it to the color in the code */
+
+section.container h2 {
+  font-family: 'Monoton', cursive;
+  font-family: 'Silkscreen', cursive;
+  margin:10px auto;
+  text-align:center;
+}
+
+#content {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+#content article.post {
+  width:30%;
+  box-shadow:0 4px 8px rgba(114, 22, 140, .8); 
+  padding:10px;
+  border-radius:30px; /* makes round border */
+  transition:0.5s;
+}
+
+#content article.post:hover, #content article.post:active {
+  box-shadow:0 8px 16px rgba(192, 75, 242, 1);
 }
 
 /*header .primary {
@@ -111,5 +163,22 @@ background-color:rgba(28, 2, 39, 0.4);
 .abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-3-hsla { color: hsla(281, 86, 62, 1); }
 .abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-hsla { color: hsla(258, 66, 20, 1); }
 .abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-hsla { color: hsla(247, 52, 16, 1); }
+
+/* ---------------Media Queries---------------- */
+
+@media screen and (max-width:780px)  /* we do not use ";" at the end of media query commands */ {
+  
+  header.primary nav ul {
+    flex-direction:column;
+} /* this tells the website to display the buttons as a column instead of a row when the max-width is under the set value. */
+  
+  header.primary nav a {
+    display:block;
+  } /* this tells the website to convert the inline buttons to block buttons when the max-width is under the set value */
+  header.primary nav li {
+    margin-bottom:15px;
+  } /* adds some space between the buttons */
+  
+} /* queries media. can be screen, all, or print. "and ()" tells the query what to look for to run the code that follows. */
 
 /* this is how you make a comment in CSS */
