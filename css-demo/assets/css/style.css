@@ -265,6 +265,7 @@ table {
 tr:nth-child(n+2) {
   border:2px solid #7B5DA6;
   background-color:rgba(114, 22, 140, 0.7);
+  transition:0.8s;
 } /* this specifies to use formulas involving n to select specific rows */
 
 tr:hover {
@@ -275,6 +276,7 @@ th {
   text-align:center;
   background-color:#281259;
   padding:10px;
+  border-radius:3git px;
 }
 
 td {
