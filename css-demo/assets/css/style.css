@@ -191,6 +191,9 @@ section.container h2 {
 
 #content .post-meta {
   text-shadow:2.5px 2.5px #100126;
+  width:40vw;
+  max-width:900px;
+  margin:20px auto; 
 }
 
 time.post-date, figcaption {
