@@ -159,6 +159,7 @@ section.container h2 {
 #intro p {
   background-color:rgba(16, 1, 38, 0.8);
   border-radius:30px;
+  text-shadow:2px 2px #281259;
 }
 
 #content {
@@ -178,6 +179,14 @@ section.container h2 {
 
 #content article.post:hover, #content article.post:active {
   box-shadow:0 8px 16px rgba(192, 75, 242, 1);
+}
+
+#content article.post p {
+  text-shadow:2px 2px #100126;
+}
+
+#content .post-meta {
+  text-shadow:2.5px 2.5px #100126;
 }
 
 time.post-date, figcaption {
@@ -228,11 +237,12 @@ time.post-date, figcaption {
   display:block;
   background-color:rgba(16, 1, 38, 0.9);
   border-radius:20px;
+  text-shadow:2px 2px #281259;
 }
 
 #demo a {
   color:#5752D9;
-  text-shadow:1.5px 1.5px #73168C;
+  text-shadow:1.3px 1.3px #73168C;
   transition:0.5s;
 }
 
@@ -244,13 +254,16 @@ time.post-date, figcaption {
 
 #demo h3 {
   display:inline;
-  text-shadow:2px 2px #5752D9;
+  text-shadow:2.5px 2px #5752D9;
   background-color:rgba(16, 1, 38, 0.8);
   border-left:5px solid #C04BF2;
   border-right:5px solid #C04BF2;
   border-radius:6px;
   text-align:center;
   padding: 5px 3px;
+  font-family: 'Monoton', cursive;
+  font-family: 'Silkscreen', cursive, sans-serif;
+  margin:0;
 }
 
 table {
