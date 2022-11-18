@@ -295,7 +295,7 @@ th {
   text-align:center;
   background-color:#281259;
   padding:10px;
-  border-radius:3git px;
+  border-radius:3px;
 }
 
 td {
@@ -412,6 +412,8 @@ aside .widget {
 aside .widget p {
   background-color:rgba(192, 75, 242, 0.7);
   border-radius:6px;
+  color:#100126;
+  text-shadow:2px 2px #5752D9;
 }
 
 aside .widget a {
@@ -466,12 +468,6 @@ aside article footer {
 .abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-rgba { color: rgba(40, 17, 89, 1); }
 .abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-rgba { color: rgba(25, 19, 63, 1); }
 
-/* Color Theme Swatches in HSLA */
-.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-1-hsla { color: hsla(286, 72, 31, 1); }
-.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-2-hsla { color: hsla(286, 62, 46, 1); }
-.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-3-hsla { color: hsla(281, 86, 62, 1); }
-.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-hsla { color: hsla(258, 66, 20, 1); }
-.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-hsla { color: hsla(247, 52, 16, 1); }
 
 /* Color Theme Swatches in Hex */
 .NEXPERIUM-#A---Shinsegae-Science-Lab-1-hex { color: #BE44F2; }
@@ -486,13 +482,6 @@ aside article footer {
 .NEXPERIUM-#A---Shinsegae-Science-Lab-3-rgba { color: rgba(123, 93, 166, 1); }
 .NEXPERIUM-#A---Shinsegae-Science-Lab-4-rgba { color: rgba(87, 82, 217, 1); }
 .NEXPERIUM-#A---Shinsegae-Science-Lab-5-rgba { color: rgba(139, 136, 242, 1); }
-
-/* Color Theme Swatches in HSLA */
-.NEXPERIUM-#A---Shinsegae-Science-Lab-1-hsla { color: hsla(282, 86, 60, 1); }
-.NEXPERIUM-#A---Shinsegae-Science-Lab-2-hsla { color: hsla(264, 94, 7, 1); }
-.NEXPERIUM-#A---Shinsegae-Science-Lab-3-hsla { color: hsla(264, 29, 50, 1); }
-.NEXPERIUM-#A---Shinsegae-Science-Lab-4-hsla { color: hsla(242, 63, 58, 1); }
-.NEXPERIUM-#A---Shinsegae-Science-Lab-5-hsla { color: hsla(241, 80, 74, 1); }
 
 /* ---------------Media Queries---------------- */
 
