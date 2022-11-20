@@ -57,7 +57,7 @@ html {
 /* ---------------Utility Classes----------------- */
 
 .container {
-    max-width:960px; /* content will not exceed 960 pixels */
+    max-width:900px; /* content will not exceed 960 pixels */
     width:80vw; /* content will expand to fill 80% of the available screen */
     margin:40px auto;
   }
@@ -96,3 +96,25 @@ body {
   font-family:"Gemunu Libre", Arial, sans-serif;
   margin:0;
 }
+
+header.primary {
+  background-color:#000000;
+  text-align:center;
+  color:#FFFFFF;
+  text-shadow:2px 2px #000000;
+  padding:9rem 2rem;
+  position:relative;
+}
+
+header.primary::before {
+  content: "";
+  background-image:url("../img/dragon-in-space-resize.jpg");
+  background-size:cover;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  opacity:0.5;
+}
+
