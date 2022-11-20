@@ -65,24 +65,22 @@ html {
   .img-right {
     float:right;
     margin:10px 0 10px 20px;
-    border:8px groove #C04BF2;
-    border-radius:6px;
-    padding:8px;
-    background-color:#281259;
+    border:1px solid #C0C0C0;
+    padding:5px;
   } /* used to make image content move to the right and the rest wrap around */
   
   .img-left {
     float:left;
     margin:10px 20px 10px 0;
-    border:8px groove #C04BF2;
-    border-radius:6px;
-    padding:8px;
-    background-color:#281259;
+    border:1px solid #C0C0C0;
+    padding:5px;
   } /* used to make image content move to the left and the rest wrap around */
   
   .img-center {
     display:block;
     margin:20px auto;
+    border:1px solid #C0C0C0;
+    padding:5px;
   } /* used to make image content move to the center */
   
   /* ---------------Responsive Images----------------- */
