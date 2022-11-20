@@ -93,7 +93,7 @@ html {
   /* ---------------Global Styles----------------- */
 
 body {
-  font-family:"Gemunu Libre", Arial, sans-serif;
+  font-family:'Gemunu Libre', Arial, Helvetica, sans-serif;
   margin:0;
 }
 
@@ -107,7 +107,7 @@ header.primary {
 }
 
 header.primary::before {
-  content: "";
+  content:"";
   background-image:url("../img/dragon-in-space-resize.jpg");
   background-size:cover;
   position:absolute;
@@ -118,3 +118,59 @@ header.primary::before {
   opacity:0.5;
 }
 
+header.primary h1 {
+  font-size:3.2rem;
+  margin:20px 0px;
+  position:relative;
+}
+
+header.primary h1 a {
+  color:#000000;
+  background-image:url("../img/spacex-logo-resized.png");
+  width:460px;
+  height:70px;
+  margin:0px auto;
+  text-indent:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  display:block;
+}
+
+header.primary h2 {
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  font-size:2rem;
+  margin:20px auto 40px;
+  position:relative;
+}
+
+header.primary nav ul {
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:0;
+  max-width:900px;
+  margin:20px auto;
+}
+
+header.primary nav li {
+  list-style-type:none;
+  padding:0px;
+  width:20%;
+}
+
+header.primary nav a:link, header.primary nav a:visited {
+  color: #FFFFFF;
+  text-decoration:none;
+  background-color:#000000;
+  background-color:rgba(142, 166, 184, 0.4);
+  padding:8px 16px;
+  border-radius:10px;
+  transition:0.6s;
+  display:block;
+}
+
+header.primary nav a:hover, header.primary nav a:active {
+  background-color:rgba(51, 83, 107, 0.8);
+}
