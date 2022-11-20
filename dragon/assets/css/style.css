@@ -1,0 +1,93 @@
+/* ---------------Color Theme---------------
+---Color Theme Swatches for Gray Scale in Hex---
+.Lunar-industries-Renew.-1-hex { color: #F2F2F2; }
+.Lunar-industries-Renew.-2-hex { color: #BFBFBF; }
+.Lunar-industries-Renew.-3-hex { color: #737373; }
+.Lunar-industries-Renew.-4-hex { color: #404040; }
+.Lunar-industries-Renew.-5-hex { color: #0D0D0D; }
+
+---Color Theme Swatches for Gray Scale in RGBA---
+.Lunar-industries-Renew.-1-rgba { color: rgba(242, 242, 242, 1); }
+.Lunar-industries-Renew.-2-rgba { color: rgba(191, 191, 191, 1); }
+.Lunar-industries-Renew.-3-rgba { color: rgba(115, 115, 115, 1); }
+.Lunar-industries-Renew.-4-rgba { color: rgba(64, 64, 64, 1); }
+.Lunar-industries-Renew.-5-rgba { color: rgba(13, 13, 13, 1); }
+
+---Color Theme Swatches for Dark Monochrome Blue in Hex---
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-1-hex { color: #FFFFFF; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-2-hex { color: #0A0041; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-3-hex { color: #0078FF; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-4-hex { color: #0000B0; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-5-hex { color: #0032FF; }
+
+---Color Theme Swatches for Dark Monochrome Blue in RGBA---
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-1-rgba { color: rgba(255, 255, 255, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-2-rgba { color: rgba(10, 0, 65, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-3-rgba { color: rgba(0, 120, 255, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-4-rgba { color: rgba(0, 0, 176, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-5-rgba { color: rgba(0, 50, 255, 1); }
+
+---Color Theme Swatches for Muted Blues in Hex---
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-1-hex { color: #B8C0D9; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-2-hex { color: #293040; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-3-hex { color: #11538C; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-4-hex { color: #85BFF2; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-5-hex { color: #1C618C; }
+
+---Color Theme Swatches for Muted Blues in RGBA---
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-1-rgba { color: rgba(184, 192, 217, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-2-rgba { color: rgba(41, 48, 64, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-3-rgba { color: rgba(17, 83, 140, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-4-rgba { color: rgba(133, 191, 242, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-5-rgba { color: rgba(28, 97, 140, 1); }
+*/
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing:border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+/* ---------------Utility Classes----------------- */
+
+.container {
+    max-width:960px; /* content will not exceed 960 pixels */
+    width:80vw; /* content will expand to fill 80% of the available screen */
+    margin:40px auto;
+  }
+  
+  .img-right {
+    float:right;
+    margin:10px 0 10px 20px;
+    border:8px groove #C04BF2;
+    border-radius:6px;
+    padding:8px;
+    background-color:#281259;
+  } /* used to make image content move to the right and the rest wrap around */
+  
+  .img-left {
+    float:left;
+    margin:10px 20px 10px 0;
+    border:8px groove #C04BF2;
+    border-radius:6px;
+    padding:8px;
+    background-color:#281259;
+  } /* used to make image content move to the left and the rest wrap around */
+  
+  .img-center {
+    display:block;
+    margin:20px auto;
+  } /* used to make image content move to the center */
+  
+  /* ---------------Responsive Images----------------- */
+  
+  img {
+    max-width:100%;
+    height:auto;
+  }
