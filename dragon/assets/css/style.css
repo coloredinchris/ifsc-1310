@@ -88,4 +88,10 @@ html {
   img {
     max-width:100%;
     height:auto;
-  }
+  } /* fixes the size of images to fit within the parameters of the website */
+
+  /* ---------------Global Styles----------------- */
+
+body {
+  font-family:"Gemunu Libre", Arial, sans-serif;
+}
