@@ -215,6 +215,7 @@ section#content p.citation {
 }
 
 /* -----------------Styling Outside of Home Content----------------- */
+
 section#content h2 {
   padding-bottom:2rem;
 }
@@ -456,6 +457,17 @@ aside article a:hover {
 
 aside article footer {
   display:none;
+}
+
+/* -----------------Styling Outside of Home Aside----------------- */
+
+.widget p a {
+  font-size:0.8rem;
+  color:#1C618C;
+}
+
+.widget p a:hover, .widget p a:visited {
+  color:#B8C0D9;
 }
 
 /* -----------------Footer----------------- */
