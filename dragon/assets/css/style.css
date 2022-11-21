@@ -213,6 +213,10 @@ section#content p.citation {
   margin-bottom:-3rem;
 }
 
+section#content p.p1 {
+  margin-bottom:-3rem;
+}
+
 /* -----------------Articles----------------- */
 
 section#articles {
