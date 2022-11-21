@@ -215,6 +215,10 @@ section#content p.citation {
 }
 
 /* -----------------Styling Outside of Home Content----------------- */
+section#content h2 {
+  padding-bottom:2rem;
+}
+
 section#content table {
   margin:2rem auto 0rem auto;
   border-collapse:collapse;
@@ -258,6 +262,46 @@ section#content table td:hover {
   color:#FFFFFF;
   text-shadow:1px 1px 1px #FFFFFF;
 }
+
+section#content details {
+  margin-top:-2rem;
+}
+
+section#content details summary {
+  list-style:none;
+  cursor:pointer;
+}
+
+section#content details summary::marker {
+  display:none;
+}
+
+section#content details summary h3.first {
+  margin-top:3.4rem;
+}
+
+section#content details summary h3 {
+  font-size:1.5rem;
+  text-decoration:underline;
+  color:#FFFFFF;
+  padding-left:2rem;
+  transition:0.6s;
+  margin-top:3rem;
+}
+
+section#content details summary h3:hover {
+  color:#BFBFBF;
+}
+
+section#content details[open] p {
+  padding:2rem;
+}
+
+section#content details[open] h3 {
+  color:#0D0D0D;
+  text-shadow:1px 1px 5px #FFFFFF;
+}
+
 
 /* -----------------Articles----------------- */
 
@@ -472,3 +516,10 @@ footer#colophon {
     margin-bottom:2rem;
   }
 }
+
+
+
+
+
+
+
