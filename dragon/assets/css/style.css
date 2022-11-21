@@ -304,7 +304,7 @@ section#articles h2 {
 /* -----------------Aside----------------- */
 
 /* Attribute Selector */
-aside[role="summary"] {
+aside#summary {
   background-color:#737373;
   color:#FFFFFF;
   padding:3.5rem;
@@ -355,7 +355,7 @@ aside article footer {
 /* -----------------Footer----------------- */
 
 footer#colophon {
-  background-color:rbga(0, 0, 0, 0);
+  background-color:transparent;
 }
 
 #colophon h6 {
