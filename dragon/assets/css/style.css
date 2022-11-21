@@ -79,8 +79,9 @@ html {
   .img-center {
     display:block;
     margin:20px auto;
-    border:1px solid #C0C0C0;
-    padding:5px;
+    border:0.4rem double #C0C0C0;
+    padding:0px;
+    border-radius: 20px;
   } /* used to make image content move to the center */
   
   /* ---------------Responsive Images----------------- */
@@ -187,6 +188,8 @@ section#content {
   border:4px double #BFBFBF;
   border-radius:20px;
   text-shadow:2px 2px 10px #000000;
+  margin-top:-7rem;
+  position:relative;
 }
 
 section#content h2 {
@@ -210,10 +213,11 @@ section#content p.citation {
   margin-bottom:-3rem;
 }
 
-/* ------------- Articles --------------- */
+/* -----------------Articles----------------- */
 
 section#articles {
   background:#737373;
+  margin-top:5rem;
 }
 
 section#articles.container {
@@ -291,3 +295,10 @@ section#articles h2 {
 #articles .post footer.credits {
   display:none;
 }
+
+/* -----------------Slideshow----------------- */
+
+#slideshow {
+  padding:1rem 0rem;
+}
+
