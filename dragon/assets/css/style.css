@@ -311,7 +311,7 @@ aside#summary {
   border-radius:20px;
   border:4px double #BFBFBF;
   text-shadow:2px 2px 10px #000000;
-  
+  letter-spacing:1px;
 }
 
 aside.container {
@@ -325,7 +325,7 @@ aside article.widget {
 }
 
 aside article.widget p {
-  padding:0.5rem 1rem;
+  padding:0rem 1rem;
   font-size:1.1rem;
 }
 
