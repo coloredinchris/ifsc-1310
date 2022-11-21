@@ -189,6 +189,7 @@ section#content {
   text-shadow:2px 2px 10px #000000;
   margin-top:-7rem;
   position:relative;
+  letter-spacing:1px;
 }
 
 section#content h2 {
@@ -217,6 +218,7 @@ section#content p.citation {
 section#articles {
   background:#737373;
   margin-top:6rem;
+  letter-spacing:1px;
 }
 
 section#articles.container {
