@@ -195,7 +195,7 @@ section#content {
 section#content h2 {
   font-family:'Michroma', Arial, Helvetica, sans-serif;
   font-size:3.2rem;
-  color:#0D0D0D;
+  color:#FFFFFF;
   text-align:center;
   margin-top:-2rem;
   padding:1rem;
@@ -217,7 +217,7 @@ section#content p.citation {
 
 section#articles {
   background:#737373;
-  margin-top:5rem;
+  margin-top:6rem;
 }
 
 section#articles.container {
@@ -236,7 +236,7 @@ section#articles h2, #content h2 {
 }
 
 section#articles h2 {
-  color: #0D0D0D;
+  color: #FFFFFF;
   text-shadow:2px 2px 10px #000000;
   font-family:'Michroma', Arial, Helvetica, sans-serif;
   font-size:3.2rem;
@@ -299,6 +299,55 @@ section#articles h2 {
 /* -----------------Slideshow----------------- */
 
 #slideshow {
-  padding:1rem 0rem;
+  margin:6rem auto;
 }
 
+/* -----------------Aside----------------- */
+
+/* Attribute Selector */
+aside[role="summary"] {
+  background-color:#737373;
+  color:#FFFFFF;
+  padding:3.5rem;
+  border-radius:20px;
+  border:4px double #BFBFBF;
+  text-shadow:2px 2px 10px #000000;
+}
+
+aside.container {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+aside article.widget {
+  width:40%;
+}
+
+aside article.widget p {
+  padding:0.5rem 1rem;
+  font-size:1.1rem;
+}
+
+.widget-chart table {
+  font-size:0.9rem;
+  border-collapse:collapse;
+}
+
+.widget-chart table td {
+  border-bottom:1px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding:10px;
+}
+
+.widget-chart table td:nth-child(even) {
+  text-align:center;
+}
+
+aside article a:hover, aside article a:active {
+  text-decoration:none;
+}
+
+aside article footer {
+  display:none;
+}

@@ -502,8 +502,4 @@ aside article footer {
   
 } /* queries media. can be screen, all, or print. "and ()" tells the query what to look for to run the code that follows. */
 
-@media screen and (max-width:780px) {
-  
-}
-
 /* this is how you make a comment in CSS */
