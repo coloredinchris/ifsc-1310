@@ -104,7 +104,7 @@ body {
 header.primary {
   background-color:#000000;
   text-align:center;
-  color:#F2F2F2;
+  color: #FFFFFF;
   text-shadow:2px 2px #000000;
   padding:9rem 2rem;
   position:relative;
@@ -183,7 +183,7 @@ header.primary nav a:hover, header.primary nav a:active {
 
 section#content {
   padding:4rem 0px;
-  background-color:#737373;
+  background-color:#404040;
   border:4px double #BFBFBF;
   border-radius:20px;
   text-shadow:2px 2px 10px #000000;
@@ -213,14 +213,38 @@ section#content p.citation {
   margin-bottom:-3rem;
 }
 
-section#content p.p1 {
-  margin-bottom:-3rem;
+/* -----------------Styling Outside of Home Content----------------- */
+section#content table {
+  margin:2rem auto 0rem auto;
+  border-collapse:collapse;
+  width:90%
+}
+
+section#content caption {
+  padding:1rem;
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  font-size:2rem;
+  color:#FFFFFF;
+}
+
+section#content table th {
+  border:1px solid #FFFFFF;
+  color:#1C618C;
+  filter:brightness(170%);
+  text-align:center;
+  font-size:1.3rem;
+}
+
+section#content table td {
+  border: 1px solid #737373;
+  color:#FFFFFF;
+  text-align:center;
 }
 
 /* -----------------Articles----------------- */
 
 section#articles {
-  background:#737373;
+  background:#404040;
   margin-top:6rem;
   letter-spacing:1px;
 }
@@ -311,7 +335,7 @@ section#articles h2 {
 
 /* Attribute Selector */
 aside#summary {
-  background-color:#737373;
+  background-color:#404040;
   color:#FFFFFF;
   padding:3.5rem;
   border-radius:20px;
@@ -341,7 +365,6 @@ aside article.widget p {
 }
 
 .widget-chart table td {
-  border-bottom:1px solid #FFFFFF;
   border: 1px solid #FFFFFF;
   padding:10px;
 }
