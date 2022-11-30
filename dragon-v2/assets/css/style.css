@@ -1,0 +1,530 @@
+/* ---------------Color Theme---------------
+---Color Theme Swatches for Gray Scale in Hex---
+.Lunar-industries-Renew.-1-hex { color: #F2F2F2; }
+.Lunar-industries-Renew.-2-hex { color: #BFBFBF; }
+.Lunar-industries-Renew.-3-hex { color: #737373; }
+.Lunar-industries-Renew.-4-hex { color: #404040; }
+.Lunar-industries-Renew.-5-hex { color: #0D0D0D; }
+
+---Color Theme Swatches for Gray Scale in RGBA---
+.Lunar-industries-Renew.-1-rgba { color: rgba(242, 242, 242, 1); }
+.Lunar-industries-Renew.-2-rgba { color: rgba(191, 191, 191, 1); }
+.Lunar-industries-Renew.-3-rgba { color: rgba(115, 115, 115, 1); }
+.Lunar-industries-Renew.-4-rgba { color: rgba(64, 64, 64, 1); }
+.Lunar-industries-Renew.-5-rgba { color: rgba(13, 13, 13, 1); }
+
+---Color Theme Swatches for Dark Monochrome Blue in Hex---
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-1-hex { color: #FFFFFF; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-2-hex { color: #0A0041; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-3-hex { color: #0078FF; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-4-hex { color: #0000B0; }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-5-hex { color: #0032FF; }
+
+---Color Theme Swatches for Dark Monochrome Blue in RGBA---
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-1-rgba { color: rgba(255, 255, 255, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-2-rgba { color: rgba(10, 0, 65, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-3-rgba { color: rgba(0, 120, 255, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-4-rgba { color: rgba(0, 0, 176, 1); }
+.Copy-of-Copy-of-Kopi-av-Project-Exam1---spaceX-dark-monochrome-5-rgba { color: rgba(0, 50, 255, 1); }
+
+---Color Theme Swatches for Muted Blues in Hex---
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-1-hex { color: #B8C0D9; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-2-hex { color: #293040; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-3-hex { color: #11538C; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-4-hex { color: #85BFF2; }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-5-hex { color: #1C618C; }
+
+---Color Theme Swatches for Muted Blues in RGBA---
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-1-rgba { color: rgba(184, 192, 217, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-2-rgba { color: rgba(41, 48, 64, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-3-rgba { color: rgba(17, 83, 140, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-4-rgba { color: rgba(133, 191, 242, 1); }
+.SpaceX-Crew-Dragon-spacecraft-in-low-Earth-orbit.-Elements-of-this-image-furnished-by-NASA.-5-rgba { color: rgba(28, 97, 140, 1); }
+*/
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing:border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+/* ---------------Utility Classes----------------- */
+
+.container {
+    max-width:900px; /* content will not exceed 960 pixels */
+    width:80vw; /* content will expand to fill 80% of the available screen */
+    margin:40px auto;
+  }
+  
+  .img-right {
+    float:right;
+    margin:10px 0 10px 20px;
+    border:1px solid #C0C0C0;
+    padding:5px;
+  } /* used to make image content move to the right and the rest wrap around */
+  
+  .img-left {
+    float:left;
+    margin:10px 20px 10px 0;
+    border:1px solid #C0C0C0;
+    padding:5px;
+  } /* used to make image content move to the left and the rest wrap around */
+  
+  .img-center {
+    display:block;
+    margin:20px auto;
+    border:0.4rem double #C0C0C0;
+    padding:0px;
+    border-radius: 20px;
+  } /* used to make image content move to the center */
+  
+  /* ---------------Responsive Images----------------- */
+  
+  img {
+    max-width:100%;
+    height:auto;
+  } /* fixes the size of images to fit within the parameters of the website */
+
+  /* ---------------Global Styles----------------- */
+
+body {
+  font-family:'Gemunu Libre', Arial, Helvetica, sans-serif;
+  margin:0;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='251' height='251' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23000000' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23F2F2F2'%3E%3Ccircle cx='769' cy='229' r='7'/%3E%3Ccircle cx='539' cy='269' r='7'/%3E%3Ccircle cx='603' cy='493' r='7'/%3E%3Ccircle cx='731' cy='737' r='7'/%3E%3Ccircle cx='520' cy='660' r='7'/%3E%3Ccircle cx='309' cy='538' r='7'/%3E%3Ccircle cx='295' cy='764' r='7'/%3E%3Ccircle cx='40' cy='599' r='7'/%3E%3Ccircle cx='102' cy='382' r='7'/%3E%3Ccircle cx='127' cy='80' r='7'/%3E%3Ccircle cx='370' cy='105' r='7'/%3E%3Ccircle cx='578' cy='42' r='7'/%3E%3Ccircle cx='237' cy='261' r='7'/%3E%3Ccircle cx='390' cy='382' r='7'/%3E%3C/g%3E%3C/svg%3E");
+  /* Background by SVGBackgrounds.com */
+}
+
+header.primary {
+  background-color:#000000;
+  text-align:center;
+  color: #FFFFFF;
+  text-shadow:2px 2px #000000;
+  padding:9rem 2rem;
+  position:relative;
+}
+
+header.primary::before {
+  content:"";
+  background-image:url("../img/dragon-in-space-resize.jpg");
+  background-size:cover;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  opacity:0.5;
+}
+
+header.primary h1 {
+  font-size:3.2rem;
+  margin:20px 0px;
+  position:relative;
+}
+
+header.primary h1 a {
+  color:#000000;
+  background-image:url("../img/spacex-logo-resized.png");
+  width:460px;
+  height:70px;
+  margin:0px auto;
+  text-indent:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  display:block;
+}
+
+header.primary h2 {
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  letter-spacing:0.3rem;
+  font-size:2rem;
+  margin:20px auto 40px;
+  position:relative;
+}
+
+header.primary nav ul {
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:0;
+  max-width:900px;
+  margin:20px auto;
+}
+
+header.primary nav li {
+  list-style-type:none;
+  padding:0px;
+  width:20%;
+}
+
+header.primary nav a {
+  color: #F2F2F2;
+  text-decoration:none;
+  background-color:rgba(184, 192, 217, 0.4);
+  padding:8px 16px;
+  border-radius:10px;
+  transition:0.6s;
+  display:block;
+}
+
+header.primary nav a:hover, header.primary nav a:active {
+  background-color:rgba(51, 83, 107, 0.8);
+}
+
+/* -----------------Content----------------- */
+
+section#content {
+  padding:4rem 0px;
+  background-color:#404040;
+  border:4px double #BFBFBF;
+  border-radius:20px;
+  text-shadow:2px 2px 10px #000000;
+  margin-top:-7rem;
+  margin-bottom:3rem;
+  position:relative;
+  letter-spacing:1px;
+}
+
+section#content h2 {
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  font-size:3.2rem;
+  color:#FFFFFF;
+  text-align:center;
+  margin-top:-2rem;
+  padding:0rem 1rem;
+}
+
+section#content p {
+  font-size:1.3rem;
+  color:#F2F2F2;
+  padding:1rem;
+  margin-top:-2rem;
+}
+
+section#content p.citation {
+  padding-top:2rem;
+  margin-bottom:-3rem;
+}
+
+/* -----------------Styling Outside of Home Content----------------- */
+
+section#content h2 {
+  padding-bottom:2rem;
+}
+
+section#content table {
+  margin:2rem auto 0rem auto;
+  border-collapse:collapse;
+  width:90%
+}
+
+section#content caption {
+  padding:1rem;
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  font-size:2rem;
+  color:#FFFFFF;
+}
+
+section#content table tr:nth-child(even) {
+  background-color:#737373;
+}
+
+section#content table tr:hover {
+  background-color:#BFBFBF;
+}
+
+section#content table th {
+  background-color:#0D0D0D;
+  border:2px solid #0D0D0D;
+  color:#FFFFFF;
+  text-align:center;
+  font-size:1.3rem;
+  text-shadow:2px 2px 5px #FFFFFF;
+  transition:0.6s;
+}
+
+section#content table td {
+  border: 2px solid #000000;
+  color:#FFFFFF;
+  text-align:center;
+  transition:0.6s;
+}
+
+section#content table td:hover {
+  background-color:#293040;
+  color:#FFFFFF;
+  text-shadow:1px 1px 1px #FFFFFF;
+}
+
+section#content details {
+  margin-top:-2rem;
+}
+
+section#content details summary {
+  list-style:none;
+  cursor:pointer;
+}
+
+section#content details summary::marker {
+  display:none;
+}
+
+section#content details summary h3.first {
+  margin-top:3.4rem;
+}
+
+section#content details summary h3 {
+  font-size:1.5rem;
+  text-decoration:underline;
+  color:#FFFFFF;
+  padding-left:2rem;
+  transition:0.6s;
+  margin-top:3rem;
+}
+
+section#content details summary h3:hover {
+  color:#BFBFBF;
+}
+
+section#content details[open] p {
+  padding:2rem;
+}
+
+section#content details[open] h3 {
+  color:#0D0D0D;
+  text-shadow:1px 1px 5px #FFFFFF;
+}
+
+
+/* -----------------Articles----------------- */
+
+section#articles {
+  background:#404040;
+  margin-top:3rem;
+  letter-spacing:1px;
+}
+
+section#articles.container {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  border:4px double #BFBFBF;
+  border-radius:20px;
+  padding:4rem 4rem 4rem 4rem;
+}
+
+section#articles h2, #content h2 {
+  flex:0 0 100%;
+  text-align:center;
+}
+
+section#articles h2 {
+  color: #FFFFFF;
+  text-shadow:2px 2px 10px #000000;
+  font-family:'Michroma', Arial, Helvetica, sans-serif;
+  font-size:3.2rem;
+  margin-top:-2rem;
+}
+
+#articles article.post {
+  width:30%;
+  box-shadow:0px 4px 8px rgba(0, 0, 0, 0.4);
+  padding:10px;
+  transition:0.6s;
+  font-size:0.8rem;
+  border-radius:10px;
+  background:#FFFFFF;
+}
+
+#articles article.post:hover {
+  box-shadow:0px 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+#articles article time, #articles article figcaption, #articles article footer {
+  font-size:0.8rem;
+  color:#BFBFBF;
+  text-transform:uppercase;
+}
+
+#articles .post figure {
+  margin:0px;
+}
+
+#articles .post img {
+  border-radius:10px;
+}
+
+#articles .post h3 {
+  font-size:2rem;
+  text-align:center;
+  margin:0.5rem;
+  margin-top:-0.5rem;
+}
+
+#articles .post p {
+  font-size:1.3rem;
+  text-align:center;
+}
+
+#articles .post ul {
+  padding:0px 20px;
+  font-size:1.1rem;
+  list-style-type:"✨";
+}
+#articles .post li {
+  margin-bottom:20px;
+}
+
+#articles .post footer.credits {
+  display:none;
+}
+
+/* -----------------Slideshow----------------- */
+
+#slideshow {
+  margin:3rem auto -6rem;
+  position:relative;
+}
+
+/* -----------------Aside----------------- */
+
+/* Attribute Selector */
+aside#summary {
+  background-color:#404040;
+  color:#FFFFFF;
+  padding:3.5rem;
+  border-radius:20px;
+  border:4px double #BFBFBF;
+  text-shadow:2px 2px 10px #000000;
+  letter-spacing:1px;
+}
+
+aside.container {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+aside article.widget {
+  width:40%;
+}
+
+aside article.widget p {
+  padding:0rem 1rem;
+  font-size:1.1rem;
+}
+
+.widget-chart table {
+  font-size:0.9rem;
+  border-collapse:collapse;
+}
+
+.widget-chart table tr:nth-child(even) {
+  background-color:#737373;
+}
+
+.widget-chart table tr:hover {
+  background-color:#BFBFBF;
+  color:#434343;
+}
+
+.widget-chart table td {
+  border: 1px solid #FFFFFF;
+  padding:10px;
+  transition:0.6s;
+}
+
+.widget-chart table td:nth-child(even) {
+  text-align:center;
+}
+
+.widget-chart table td:hover {
+  text-shadow:1px 1px 1px #BFBFBF;
+}
+
+aside article a:hover {
+  text-decoration:none;
+}
+
+aside article footer {
+  display:none;
+}
+
+/* -----------------Styling Outside of Home Aside----------------- */
+
+.widget p a {
+  font-size:0.8rem;
+  color:#1C618C;
+}
+
+.widget p a:hover, .widget p a:visited {
+  color:#B8C0D9;
+}
+
+/* -----------------Footer----------------- */
+
+footer#colophon {
+  background-color:transparent;
+}
+
+#colophon h6 {
+  padding:20px;
+  margin:0px;
+  color:#FFFFFF;
+  text-align:center;
+  font-size:0.9rem;
+  text-transform:uppercase;
+  font-size:1.3rem;
+  text-shadow:2px 2px 10px #BFBFBF;
+}
+
+#colophon h6 a {
+  color:#FFFFFF;
+  transition:0.6s;
+}
+
+#colophon h6 a:active, #colophon h6 a:hover {
+  color:#737373;
+}
+
+/* -----------------Media Queries----------------- */
+
+@media screen and (max-width: 600px) {
+  header.primary nav ul {
+    flex-direction:column;
+    margin:0px auto;
+    width:400px;
+  }
+
+  header.primary nav ul li {
+    margin-bottom:10px;
+    width:400px;
+  }
+
+  header.primary nav ul li a {
+    display:block;
+  }
+
+  section#articles .container {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    border-bottom:1px solid #c0c0c0;
+    padding:0rem 0rem 4rem 0rem;
+  }
+
+  #articles article.post {
+    width:100%;
+    margin-bottom:2rem;
+  }
+}
