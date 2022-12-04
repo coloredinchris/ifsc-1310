@@ -1,0 +1,81 @@
+/* ---------------Color Themes---------------- */
+/* Color Theme Swatches in Hex */
+
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-1-hex { color: #73168C; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-2-hex { color: #9F2CBF; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-3-hex { color: #C04BF2; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-hex { color: #281259; }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-hex { color: #1A1440; }
+
+/* Color Theme Swatches in RGBA */
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-1-rgba { color: rgba(114, 22, 140, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-2-rgba { color: rgba(159, 43, 191, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-3-rgba { color: rgba(192, 75, 242, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-4-rgba { color: rgba(40, 17, 89, 1); }
+.abstract-starry-Space-purple-with-shining-star-dust-and-nebula.-Realistic-galaxy-with-milky-way-and-planet-background-5-rgba { color: rgba(25, 19, 63, 1); }
+
+
+/* Color Theme Swatches in Hex */
+.NEXPERIUM-#A---Shinsegae-Science-Lab-1-hex { color: #BE44F2; }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-2-hex { color: #100126; }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-3-hex { color: #7B5DA6; }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-4-hex { color: #5752D9; }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-5-hex { color: #8B88F2; }
+
+/* Color Theme Swatches in RGBA */
+.NEXPERIUM-#A---Shinsegae-Science-Lab-1-rgba { color: rgba(190, 68, 242, 1); }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-2-rgba { color: rgba(16, 1, 38, 1); }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-3-rgba { color: rgba(123, 93, 166, 1); }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-4-rgba { color: rgba(87, 82, 217, 1); }
+.NEXPERIUM-#A---Shinsegae-Science-Lab-5-rgba { color: rgba(139, 136, 242, 1); }
+
+/* ---------------Box Sizing----------------- */
+
+html {
+    box-sizing:border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+/* ---------------Utility Classes----------------- */
+
+.container {
+    max-width:900px; /* content will not exceed 900 pixels */
+    width:80vw; /* content will expand to fill 80% of the available screen */
+    margin:40px auto;
+  }
+  
+  .img-right {
+    float:right;
+    margin:10px 0 10px 20px;
+    border:1px solid #C0C0C0;
+    padding:5px;
+  } /* used to make image content move to the right and the rest wrap around */
+  
+  .img-left {
+    float:left;
+    margin:10px 20px 10px 0;
+    border:1px solid #C0C0C0;
+    padding:5px;
+  } /* used to make image content move to the left and the rest wrap around */
+  
+  .img-center {
+    display:block;
+    margin:20px auto;
+    border:0.4rem double #C0C0C0;
+    padding:0px;
+    border-radius: 20px;
+  } /* used to make image content move to the center */
+  
+  /* ---------------Responsive Images----------------- */
+  
+  img {
+    max-width:100%;
+    height:auto;
+  } /* fixes the size of images to fit within the parameters of the website */
+
+  /* ---------------Global Styles----------------- */

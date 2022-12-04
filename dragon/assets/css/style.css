@@ -57,7 +57,7 @@ html {
 /* ---------------Utility Classes----------------- */
 
 .container {
-    max-width:900px; /* content will not exceed 960 pixels */
+    max-width:900px; /* content will not exceed 900 pixels */
     width:80vw; /* content will expand to fill 80% of the available screen */
     margin:40px auto;
   }
