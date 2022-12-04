@@ -92,12 +92,12 @@ html {
 body {
     background:#100126;
     border-radius:4rem;
-    padding:2rem 3rem 2rem 3rem;
+    padding:0rem 3rem 2rem 3rem;
     display:flex;
     align-items:center;
     flex-direction: column;
     justify-content: center;
-    margin:8% 18rem 2rem;
+    margin:2% 18rem 2rem;
 }
 
 h1 {
