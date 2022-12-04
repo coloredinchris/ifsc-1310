@@ -91,10 +91,11 @@ html {
 
 body {
     background:#100126;
-    border-radius:10rem;
+    border-radius:4rem;
     padding:2rem 3rem 2rem 3rem;
     display:flex;
     align-items:center;
+    flex-direction: column;
     justify-content: center;
     margin:8% 18rem 2rem;
 }
@@ -105,13 +106,11 @@ h1 {
 
 nav ul li a {
     font-family:'Gemunu Libre', sans-serif;
-    line-height:1.4rem;
-    margin:0;
-    color:#BE44F2;
+    color:#8B88F2;
 } /* ---------------this changes the background used by the webpage----------------- */
 
 nav ul li a:visited {
-    color:#8B88F2;
+    color:#5752D9;
 }
 
 nav ul li a:hover {
@@ -119,5 +118,26 @@ nav ul li a:hover {
 }
 
 nav ul li span {
-    text-shadow:2px 2px 4px #8B88F2;
+  text-shadow:2px 2px 4px #8B88F2;
+}
+
+section h2 {
+  text-shadow:2px 2px 4px #8B88F2;
+}
+
+section p {
+  font-family:'Gemunu Libre', sans-serif;
+  text-shadow:0.5px 0.5px 4px #8B88F2;
+}
+
+section a {
+  color:#8B88F2;
+}
+
+section a:visited {
+  color:#5752D9;
+}
+
+section a:hover {
+  color:#7B5DA6;
 }
