@@ -3,14 +3,14 @@ body{
 }
 
 img{
-    max-width:100%;
+    max-width:95%;
 }
 
 .container{
-    margin:40px auto;
-    width:70vw;
+    margin:15% auto;
+    width:100vw;
     /* Set Max Content Width */
-    max-width:700px;
+    max-width:95vw;
 }
 
 /* Customize Previous/Next/Dots/Autoplay */
@@ -19,7 +19,7 @@ img{
 .slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
 .slick-dots li button .slick-dot-icon,
 .slick-dots li.slick-active button .slick-dot-icon {
-  color: white;
+  color: #73168C;
 }
 
 /* Customize Previous/Next/Dots/Autoplay - Active State */
@@ -30,7 +30,6 @@ img{
 .slick-prev:focus .slick-prev-icon,
 .slick-dots li button:focus .slick-dot-icon:before,
 .slick-dots li.slick-active button:focus .slick-dot-icon,
-.slick-autoplay-toggle-button:focus 
-{
-    color:black;
+.slick-autoplay-toggle-button:focus {
+    color:#281259;;
 }
