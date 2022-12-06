@@ -57,7 +57,7 @@ html {
 /* ---------------Utility Classes----------------- */
 
 .container {
-    max-width:900px; /* content will not exceed 960 pixels */
+    max-width:55%; /* content will not exceed set value */
     width:80vw; /* content will expand to fill 80% of the available screen */
     margin:40px auto;
   }
@@ -218,6 +218,8 @@ section#content p.citation {
 
 section#content h2 {
   padding-bottom:2rem;
+  padding-left:4%;
+  text-align: center;
 }
 
 section#content table {
@@ -266,6 +268,7 @@ section#content table td:hover {
 
 section#content details {
   margin-top:-2rem;
+  text-align: center;
 }
 
 section#content details summary {
