@@ -477,6 +477,10 @@ aside article.widget p {
   font-size:1.1rem;
 }
 
+aside article.widget p a:hover {
+  color:#1C618C;
+}
+
 .widget-chart table {
   font-size:0.9rem;
   border-collapse:collapse;
