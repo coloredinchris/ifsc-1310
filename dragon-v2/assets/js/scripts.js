@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 
 //back to top button
-const showOnPx = 100;
+const showOnPx = 200;
 const backToTopButton = document.querySelector(".back-to-top")
 
 const scrollContainer = () => {
