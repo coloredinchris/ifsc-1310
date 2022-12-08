@@ -85,7 +85,7 @@ html {
   } /* used to make image content move to the center */
 
   .hidden {
-    transform:translateY(100px)
+    transform:translateY(100px);
   }
 
   .hidden-nav {
@@ -260,12 +260,12 @@ iframe {
   border:0.3rem double #C0C0C0;
   border-radius: 40px;
   display:block;
-  margin:-2rem auto;
-  margin-bottom:3rem;
+  margin:2rem auto;
+  margin-top:2rem;
 }
 
 section#content p.citation {
-  padding-top:2rem;
+  padding-top:4rem;
   margin-bottom:-3rem;
 }
 
