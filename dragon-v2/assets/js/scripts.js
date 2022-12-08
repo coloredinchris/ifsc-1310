@@ -29,4 +29,17 @@ const goToTop = () => {
 
 backToTopButton.addEventListener("click", goToTop)
 
+//nav disappear on scroll down, appear on scroll up
+const nav = document.querySelector(".navbar");
+  let lastScrollY = window.scrollY;
+
+  window.addEventListener("scroll", () => {
+    if (lastScrollY < window.scrollY) {
+      nav.classList.add("hidden-nav");
+    } else {
+      nav.classList.remove("hidden-nav");
+    }
+
+    lastScrollY = window.scrollY;
+  });
 });

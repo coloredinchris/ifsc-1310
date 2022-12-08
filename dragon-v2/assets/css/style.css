@@ -83,6 +83,14 @@ html {
     padding:0px;
     border-radius: 20px;
   } /* used to make image content move to the center */
+
+  .hidden {
+    transform:translateY(100px)
+  }
+
+  .hidden-nav {
+    transform: translateY(-250px);
+  }
   
   /* ---------------Responsive Images----------------- */
   
@@ -90,10 +98,6 @@ html {
     max-width:85%;
     height:auto;
   } /* fixes the size of images to fit within the parameters of the website */
-
-  .hidden {
-    display: none;
-  }
 
   /* ---------------Global Styles----------------- */
 
@@ -152,12 +156,29 @@ header.primary h2 {
   position:relative;
 }
 
+.navcontainer {
+  display:flex;
+  justify-content: center;
+}
+
+.navbar {
+  margin-top:2rem;
+  position:fixed;
+  top: 0;
+  width: 50%; /* width */
+  transition: transform 0.3s; /* Transition effect when sliding down (and up) */
+  z-index:99;
+  background-color: rgba(0, 0, 0, 0.9);
+  border:0.3rem double #C0C0C0;
+  border-radius: 20px;
+}
+
 header.primary nav ul {
   font-family:'Michroma', Arial, Helvetica, sans-serif;
   position:relative;
   display:flex;
   flex-direction:row;
-  justify-content:space-around;
+  justify-content:space-evenly;
   padding:0;
   max-width:900px;
   margin:20px auto;
@@ -195,6 +216,7 @@ header.primary nav a:hover, header.primary nav a:active {
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+  transition: transform 0.3s;
 }
 
 .back-to-top:hover {
@@ -223,6 +245,8 @@ section#content h2 {
   text-align:center;
   margin-top:-2rem;
   padding:0rem 1rem;
+  padding-bottom:2rem;
+  padding-left:4%;
 }
 
 section#content p {
@@ -230,6 +254,14 @@ section#content p {
   color:#F2F2F2;
   padding:1rem;
   margin-top:-2rem;
+}
+
+iframe {
+  border:0.3rem double #C0C0C0;
+  border-radius: 40px;
+  display:block;
+  margin:-2rem auto;
+  margin-bottom:3rem;
 }
 
 section#content p.citation {
@@ -244,10 +276,8 @@ section#content.history {
   border-radius:20px 20px 0 0;
 }
 
-section#content h2 {
-  padding-bottom:2rem;
-  padding-left:4%;
-  text-align: center;
+section#content.history h2 {
+  margin-left:-4%;
 }
 
 section#content table {
@@ -349,6 +379,9 @@ section#content details[open] h3 {
   text-shadow:1px 1px 5px #FFFFFF;
 }
 
+.faq {
+  margin-left:-5%;
+}
 
 /* -----------------Articles----------------- */
 
