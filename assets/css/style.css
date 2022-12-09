@@ -123,15 +123,22 @@ nav ul li span {
 
 section h2 {
   text-shadow:2px 2px 4px #8B88F2;
+  text-align: center;
+}
+
+section h3 {
+  text-shadow:2px 2px 4px #8B88F2;
+  text-align: center;
 }
 
 section p {
   font-family:'Gemunu Libre', sans-serif;
-  text-shadow:0.5px 0.5px 4px #8B88F2;
+  text-shadow:none;
 }
 
 section a {
   color:#8B88F2;
+  text-shadow:none;
 }
 
 section a:visited {
@@ -140,4 +147,15 @@ section a:visited {
 
 section a:hover {
   color:#7B5DA6;
+}
+
+.change-font {
+  font-family:'Gemunu Libre', sans-serif;
+  align-items: center;
+}
+
+.list {
+  list-style-position: inside;
+  text-align: center;
+  margin:3rem auto;
 }
