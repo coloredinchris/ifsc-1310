@@ -261,7 +261,7 @@ iframe {
   border-radius: 40px;
   display:block;
   margin:2rem auto;
-  margin-top:2rem;
+  width:90%;
 }
 
 section#content p.citation {
